@@ -12,16 +12,13 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction:column
+    width: 300px;
+    margin: auto;
+    position: relative;
+    background: rgba(169, 160, 204, 0.212);
+    margin: 100px auto 100px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 10px 10px rgba(169, 160, 204, 0.062)
 }
